@@ -1,0 +1,4 @@
+#!/bin/bash
+/sbin/modprobe -r -f ath11k_pci 
+/sbin/modprobe ath11k_pci 
+
